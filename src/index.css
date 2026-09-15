@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-pixel {
+    font-family: 'VT323', monospace;
+  }
+  .font-sans {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom retro styling */
+.pixel-border {
+  box-shadow: 
+    0 -3px 0 0 #000,
+    0 3px 0 0 #000,
+    -3px 0 0 0 #000,
+    3px 0 0 0 #000;
+}
+
+.gold-glow {
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.45);
+}
+
+.crimson-glow {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
+}
+
+/* Subtle scanline effect for retro mode */
+.scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 3px, 4px 100%;
+}

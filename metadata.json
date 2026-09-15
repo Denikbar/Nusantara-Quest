@@ -1,0 +1,6 @@
+{
+  "name": "Nusantara Quest: Jejak Sejarah",
+  "description": "Game RPG-Trivia Adventure 2D sejarah Indonesia untuk siswa SD, SMP, dan SMA/SMK menjelajahi 5 era sejarah nusantara dan menyelamatkan garis waktu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
