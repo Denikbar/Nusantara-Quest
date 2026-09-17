@@ -533,7 +533,7 @@ export const QuizBattle: React.FC<QuizBattleProps> = ({
                 Penjaga Waktu
               </div>
               <div className="text-[10px] text-amber-400/80 font-mono">
-                {tier} Mode
+                {tier === 'SMA' ? 'SMA / SMK' : tier} Mode
               </div>
             </div>
           </div>
